@@ -51,7 +51,7 @@ address {
 
 .header-menu-link {
     color: #2e2f42;
-    display: block;
+    
  
 }
 
@@ -68,7 +68,7 @@ address {
 .header-menu-link.active::after {
     content: "";
    
-    bottom: -1px;
+   
     background-color: #404bbf;
 }
 
@@ -94,8 +94,9 @@ address {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #ffffff
     
 }
 
@@ -117,15 +118,7 @@ address {
     background-color: #404bbf;
 }
 
-/* ====== Utility ====== */
-.visually-hidden {
-    position: absolute;
-   
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 
 /* ====== Features ====== */
 .features-subtitle {
